@@ -9,5 +9,9 @@ namespace Project.CONF.Options
 {
     public class EtiketConfiguration : BaseConfiguration<Etiket>
     {
+        public EtiketConfiguration()
+        {
+            ToTable("Etiketler");
+        }
     }
 }

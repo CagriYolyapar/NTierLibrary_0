@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project.CONF.Options
 {
-    public class KategoriConfigurations : BaseConfiguration<Kategori>
+    public class KategoriConfiguration : BaseConfiguration<Kategori>
     {
-        public KategoriConfigurations()
+        public KategoriConfiguration()
         {
             ToTable("Kategoriler");
         }

@@ -9,5 +9,15 @@ namespace Project.CONF.Options
 {
     public class YazarConfiguration : BaseConfiguration<Yazar>
     {
+        public YazarConfiguration()
+        {
+            ToTable("Yazarlar");
+        }
+
+       
+
+
+
+
     }
 }

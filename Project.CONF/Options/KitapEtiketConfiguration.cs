@@ -12,6 +12,7 @@ namespace Project.CONF.Options
         //Iliskiler
         public KitapEtiketConfiguration()
         {
+            ToTable("Kitap Etiketleri");
             Ignore(x => x.Id);
 
             HasKey(x => new

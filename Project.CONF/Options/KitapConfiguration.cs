@@ -9,5 +9,9 @@ namespace Project.CONF.Options
 {
     public class KitapConfiguration : BaseConfiguration<Kitap>
     {
+        public KitapConfiguration()
+        {
+            ToTable("Kitaplar");
+        }
     }
 }

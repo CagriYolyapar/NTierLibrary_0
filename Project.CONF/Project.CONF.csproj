@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="Options\BaseConfiguration.cs" />
     <Compile Include="Options\EtiketConfiguration.cs" />
-    <Compile Include="Options\KategoriConfigurations.cs" />
+    <Compile Include="Options\KategoriConfiguration.cs" />
     <Compile Include="Options\KitapConfiguration.cs" />
     <Compile Include="Options\KitapEtiketConfiguration.cs" />
     <Compile Include="Options\OdaConfiguration.cs" />

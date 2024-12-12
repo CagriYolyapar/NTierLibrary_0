@@ -9,5 +9,9 @@ namespace Project.CONF.Options
 {
     public class OdaConfiguration : BaseConfiguration<Oda>
     {
+        public OdaConfiguration()
+        {
+            ToTable("Odalar");
+        }
     }
 }

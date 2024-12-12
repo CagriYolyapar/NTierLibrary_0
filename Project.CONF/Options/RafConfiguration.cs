@@ -9,5 +9,9 @@ namespace Project.CONF.Options
 {
     public class RafConfiguration : BaseConfiguration<Raf>
     {
+        public RafConfiguration()
+        {
+            ToTable("Raflar");
+        }
     }
 }
